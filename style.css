@@ -45,6 +45,7 @@ section{
     background-size: cover;
     background: url(img/bg.jpg) no-repeat;
     background-position: center;
+    background-attachment: fixed;
 }
 .main h2{
     color: black;
@@ -88,4 +89,133 @@ main h3{
     color: black;
     font-size: 28px;
     padding-right: 30px;
+}
+.title{
+    display: flex;
+    color: rgb(6, 124, 235);
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.title:nth-child(1){
+    color: white;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.skills-section{
+    background-color: rgb(6, 124, 235);
+}
+.skill-card{
+    color: white;
+    background-color: black;
+    width: 345px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    transition: 0.7s ease;
+    margin: 15px;
+    cursor: pointer;
+}
+.skill-card:hover{
+    transform: scale(1.1);
+}
+.skill-card .icon{
+    color:rgb(6, 124, 235) ;
+    font-size: 18px;
+    text-align: center;
+}
+.contact-card{
+    color: white;
+    background-color: black;
+    width: 345px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    transition: 0.7s ease;
+    margin: 15px;
+    cursor: pointer;
+}
+.contact-card:hover{
+    transform: scale(1.1);
+}
+.contact-card .icon{
+    color:rgb(6, 124, 235) ;
+    font-size: 18px;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.info h3
+{
+    color: rgb(6, 124, 235);
+    font-size: 18px;
+    font-weight: 700;
+    ;
+}
+.projects-section{
+    background-color: #000000;
+}
+.projects-section .content{
+    margin-top: 30px;
+}
+.project-card{
+    background-color: white;
+    border: 1px solid white;
+    min-height: 225px;
+    width: 345px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.project-card:hover{
+    transform: scale(1.1);
+}
+.project-card:hover .project-image{
+    opacity: 0.9;
+}
+.project-image img{
+    width: 100%;
+    height: 202px;
+    border-radius:8px;
+    border-color: black;
+}
+.project-info{
+    padding: 16px;
+}
+.project-brief{
+    font-size: 16px;
+    color: black;
+    text-align: left;
+    margin-left: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.more-details{
+    text-decoration: none;
+    color: rgb(6, 124, 235);
+    font-weight: 800;
+    transition: 0.7s ease;
+    font-size: 16px;
+}
+.more-details:hover{
+    color: rgb(32, 29, 221);
+}
+.contact .icon{
+    font-size: 72px;
+
+}
+.contact .info h3{
+    color: white;
+}
+.contact .info p{
+    color: white;
+    font-size: 24px;
 }
