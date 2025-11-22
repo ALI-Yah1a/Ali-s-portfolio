@@ -85,7 +85,7 @@ main h3{
     background-color: rgb(6, 124, 235);
     transform: scale(1.1);
 }
-.social-icons a{
+.first-social-icons a{
     color: black;
     font-size: 28px;
     padding-right: 30px;
@@ -172,6 +172,7 @@ main h3{
     border-radius: 10px;
     margin: 20px;
     transition: 0.7s ease;
+    padding: 5px;
 }
 .project-card:hover{
     transform: scale(1.1);
@@ -208,14 +209,72 @@ main h3{
 .more-details:hover{
     color: rgb(32, 29, 221);
 }
-.contact .icon{
+.contact-section .icon{
     font-size: 72px;
 
 }
-.contact .info h3{
+.contact-section .info h3{
     color: white;
 }
-.contact .info p{
+.contact-section .info p{
     color: white;
-    font-size: 24px;
+    font-size: 22px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title span{
+    font-size: 20px;
+    font: 600;
+}
+.footer-title span{
+    color: rgb(6, 124, 235);
+}
+.footer .second-social-icons a{
+    font-size: 20px;
+    padding-right: 20px;
+}
+@media (max-width: 1023px){
+    header{
+        padding: 12px 20px;
+    }
+    .navigation a{
+        padding-left: 10px;
+    }
+    .title{
+        font-size: 32px;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    .main-content h2{
+        font-size: 16px;
+    }
+    .main-content h3{
+        font-size: 24px;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width: 641px){
+    body{
+        font-size: 12px;
+    }
+    .main-content h2{
+        font-size: 12px;
+    }
+    .main-content h3{
+        font-size: 20px;
+    }
+}
+@media(max-width: 300px){
+    body{
+        font-size: 10px;
+    }
 }
